@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-purple: #5b3df5;
+  --text-dark: #1f1f2e;
+  --text-muted: #7a7a9d;
+  --border-light: #e8e8f0;
+  --row-border: #f0f0f6;
+}
+
+body {
+  font-family: "Inter", system-ui, sans-serif;
+  background: #f7f7fb;
+  color: var(--text-dark);
+}
